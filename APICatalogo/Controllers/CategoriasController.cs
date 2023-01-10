@@ -5,11 +5,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using APICatalogo.Context;
 using APICatalogo.Models;
+using APICatalogo.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace APICatalogo.Controllers
+namespace APICatalogo.Categorias
 {
     [Route("[controller]")]
     public class CategoriasController : Controller
@@ -102,6 +103,13 @@ namespace APICatalogo.Controllers
             _context.SaveChanges();
 
             return Ok();
+        }
+
+        [HttpGet("saudacao/{nome}")]
+        public ActionResult<string> GetSaudacao([FromServices] IMeusServicos meuservico,
+        string nome)
+        {
+            return meuservico.Saudacao(nome);
         }
 
     }

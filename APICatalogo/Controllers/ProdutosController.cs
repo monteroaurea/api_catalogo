@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 namespace APICatalogo.Controllers
 {
     [Route("[controller]")]
+    [ApiController]
     public class ProdutosController : ControllerBase
     {
         private readonly AppDbContext _context;

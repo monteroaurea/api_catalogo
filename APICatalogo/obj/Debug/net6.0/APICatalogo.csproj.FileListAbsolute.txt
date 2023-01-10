@@ -47,3 +47,8 @@
 /Users/aureamontt/Projects/APICatalogo/APICatalogo/obj/Debug/net6.0/APICatalogo.pdb
 /Users/aureamontt/Projects/APICatalogo/APICatalogo/obj/Debug/net6.0/APICatalogo.genruntimeconfig.cache
 /Users/aureamontt/Projects/APICatalogo/APICatalogo/obj/Debug/net6.0/ref/APICatalogo.dll
+/Users/aureamontt/Projects/APICatalogo/APICatalogo/obj/Debug/net6.0/staticwebassets/msbuild.APICatalogo.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/aureamontt/Projects/APICatalogo/APICatalogo/obj/Debug/net6.0/staticwebassets/msbuild.build.APICatalogo.props
+/Users/aureamontt/Projects/APICatalogo/APICatalogo/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.APICatalogo.props
+/Users/aureamontt/Projects/APICatalogo/APICatalogo/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.APICatalogo.props
+/Users/aureamontt/Projects/APICatalogo/APICatalogo/obj/Debug/net6.0/staticwebassets.pack.json
